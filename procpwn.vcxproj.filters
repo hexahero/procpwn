@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{55d3874c-5045-40a9-99a4-fa135fe914d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{e1582f68-1f99-4f47-a8a2-be5876a23233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imgui">
+      <UniqueIdentifier>{e04c213b-894e-43eb-904f-6b026f63bc27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{abb87813-5126-41f9-b1a2-156777ab2df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\window">
+      <UniqueIdentifier>{fa35a0ce-98bc-43d7-92fb-5b034a43d938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memhack">
+      <UniqueIdentifier>{b32c9663-8f2d-44e4-8621-f898eb1074f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\windows">
+      <UniqueIdentifier>{af55c237-0298-4e0f-b4be-482cc46ab083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{0063a56f-3a3b-4db0-994d-7e867f7a6d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\popups">
+      <UniqueIdentifier>{df19b0ae-3342-44ed-9e59-a098436acf01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\app.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\glad\src\glad.c">
+      <Filter>dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_demo.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_draw.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_glfw.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_opengl3.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_tables.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_widgets.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\window.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guiserver.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guibase.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memnproc\procmem.cpp">
+      <Filter>src\memhack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memnproc\proc.cpp">
+      <Filter>src\memhack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\util.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\imgui\imconfig.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_glfw.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_opengl3.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_internal.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_rectpack.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_textedit.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_truetype.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\window.h">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guiserver.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guibase.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memnproc\procmem.h">
+      <Filter>src\memhack</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memnproc\proc.h">
+      <Filter>src\memhack</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\windows\memviewer.hpp">
+      <Filter>src\gui\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\windows\watchview.hpp">
+      <Filter>src\gui\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\util.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\windows\proclist.hpp">
+      <Filter>src\gui\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\windows\menubar.hpp">
+      <Filter>src\gui\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\windows\hkproclist.hpp">
+      <Filter>src\gui\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\popups\scanmempopup.hpp">
+      <Filter>src\gui\popups</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\logger.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\popups\hkprocspopup.hpp">
+      <Filter>src\gui\popups</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\windows\logview.hpp">
+      <Filter>src\gui\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memnproc\datacontroller.hpp" />
+  </ItemGroup>
+</Project>
